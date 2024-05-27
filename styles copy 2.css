@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.container-inicio{
+    max-width: 1200px;
+    margin: auto;	
+}
+h1{
+    text-align: center;
+    color:#f0fc05 ;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav span{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+nav span:hover{
+    color: red;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+}
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #095aac;
+    color: white;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+.busqueda {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.news-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.news-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+footer {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes a {
+
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
